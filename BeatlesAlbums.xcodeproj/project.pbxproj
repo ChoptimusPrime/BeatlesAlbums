@@ -10,9 +10,12 @@
 		B1057E64244B63720062602E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E63244B63720062602E /* AppDelegate.swift */; };
 		B1057E66244B63720062602E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E65244B63720062602E /* SceneDelegate.swift */; };
 		B1057E68244B63720062602E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E67244B63720062602E /* ViewController.swift */; };
-		B1057E6B244B63720062602E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1057E69244B63720062602E /* Main.storyboard */; };
 		B1057E6D244B63740062602E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1057E6C244B63740062602E /* Assets.xcassets */; };
 		B1057E70244B63740062602E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1057E6E244B63740062602E /* LaunchScreen.storyboard */; };
+		B1057E78244B65900062602E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E77244B65900062602E /* Album.swift */; };
+		B1057E7C244B7B6A0062602E /* BeatlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E7B244B7B6A0062602E /* BeatlesDataSource.swift */; };
+		B1057E7E244B7BDF0062602E /* beatlesImages in Resources */ = {isa = PBXBuildFile; fileRef = B1057E7D244B7BDF0062602E /* beatlesImages */; };
+		B1057E80244B80B00062602E /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1057E7F244B80B00062602E /* AlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		B1057E63244B63720062602E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1057E65244B63720062602E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1057E67244B63720062602E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1057E6A244B63720062602E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1057E6C244B63740062602E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1057E6F244B63740062602E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1057E71244B63740062602E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1057E77244B65900062602E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		B1057E7B244B7B6A0062602E /* BeatlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatlesDataSource.swift; sourceTree = "<group>"; };
+		B1057E7D244B7BDF0062602E /* beatlesImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = beatlesImages; sourceTree = "<group>"; };
+		B1057E7F244B80B00062602E /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				B1057E63244B63720062602E /* AppDelegate.swift */,
 				B1057E65244B63720062602E /* SceneDelegate.swift */,
 				B1057E67244B63720062602E /* ViewController.swift */,
-				B1057E69244B63720062602E /* Main.storyboard */,
 				B1057E6C244B63740062602E /* Assets.xcassets */,
 				B1057E6E244B63740062602E /* LaunchScreen.storyboard */,
 				B1057E71244B63740062602E /* Info.plist */,
+				B1057E77244B65900062602E /* Album.swift */,
+				B1057E7D244B7BDF0062602E /* beatlesImages */,
+				B1057E7B244B7B6A0062602E /* BeatlesDataSource.swift */,
+				B1057E7F244B80B00062602E /* AlbumCell.swift */,
 			);
 			path = BeatlesAlbums;
 			sourceTree = "<group>";
@@ -126,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1057E70244B63740062602E /* LaunchScreen.storyboard in Resources */,
+				B1057E7E244B7BDF0062602E /* beatlesImages in Resources */,
 				B1057E6D244B63740062602E /* Assets.xcassets in Resources */,
-				B1057E6B244B63720062602E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +150,15 @@
 				B1057E68244B63720062602E /* ViewController.swift in Sources */,
 				B1057E64244B63720062602E /* AppDelegate.swift in Sources */,
 				B1057E66244B63720062602E /* SceneDelegate.swift in Sources */,
+				B1057E7C244B7B6A0062602E /* BeatlesDataSource.swift in Sources */,
+				B1057E78244B65900062602E /* Album.swift in Sources */,
+				B1057E80244B80B00062602E /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B1057E69244B63720062602E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1057E6A244B63720062602E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1057E6E244B63740062602E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
